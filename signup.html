@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up form in html</title>
+    <style>
+        body{
+            background-color: #202020;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .container{
+            width: 350px;
+            background-color: #fff;
+            padding: 40px 10px 20px;
+            margin: 100px auto;
+            border-radius: 10px;
+        }
+        h1{
+            text-align: center;
+        }
+        input{
+            max-width: 320px;
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 8px;
+            border-radius: 4px;
+        }
+        select{
+            max-width: 320px;
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 8px;
+            border-radius: 4px;
+        }
+
+        input[type = "submit"]{
+            background-color: #111111;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Signup</h1>
+        <label for="name">Name:</label>
+        <input type="text" name="" id="name">
+        <label for="batch">Batch:</label>
+        <select name="" id="batch">
+            <option value="">Sigma 1.0</option>
+            <option value="">Sigma 2.0</option>
+            <option value="">Data Science</option>
+            <option value="">Java and dsa</option>
+        </select>
+        <label for="age">Age:</label>
+        <input type="number" name="" id="age">
+        <label for="email">Email:</label>
+        <input type="email" name="" id="email">
+        <label for="pass">Password:</label>
+        <input type="password" name="" id="pass">
+        <input type="submit" value="Signup">
+    </div>
+</body>
+</html>
